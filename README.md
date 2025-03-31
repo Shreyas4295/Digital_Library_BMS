@@ -39,8 +39,8 @@ $ cd Digital-Library-BMS
 Update `application.properties` with your MySQL credentials:
 ```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/bmsdb?createDatabaseIfNotExist=true
-spring.datasource.username=root
-spring.datasource.password=root
+spring.datasource.username=username
+spring.datasource.password=password
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
